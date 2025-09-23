@@ -4,6 +4,7 @@ from factorial import factorial
 import pytest
 
 
+# assert checks if the condition is true
 def test_factorial_zero():
     assert factorial(0) == 1
 
