@@ -39,3 +39,7 @@ def test_fib1_returns_6():
 def test_fib1_negative_number_returns_error():
     with pytest.raises(ValueError):
         fib(-3)
+
+def test_fib1_not_integer_returns_error():
+    with pytest.raises(TypeError):
+        fib(5.0)
