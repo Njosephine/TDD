@@ -17,7 +17,7 @@ def test_factorial_five():
 
 
 def test_factorial_seven():
-    assert factorial("add") == 5040
+    assert factorial(7) == 5040
 
 
 def test_factorial_negative():
